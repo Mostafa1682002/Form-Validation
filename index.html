@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Login Form Validation</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>Login Form</header>
+      <form action="#">
+        <div class="feild email">
+          <div class="input-area">
+            <input
+              type="text"
+              name="email "
+              id="email"
+              placeholder="Email adress"
+            />
+            <i class="icon fas fa-envelope"></i>
+            <i class="error icon-error fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-text">Email Can't Be Blank</div>
+        </div>
+        <div class="feild password">
+          <div class="input-area">
+            <input
+              type="password"
+              name="password "
+              id="password"
+              placeholder="Password"
+            />
+            <i class="icon fas fa-lock"></i>
+            <i class="error icon-error fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-text">Password Can't Be Blank</div>
+        </div>
+        <div class="pass-link"><a href="#">Forget Password?</a></div>
+        <input type="submit" value="Login" />
+      </form>
+      <div class="singup-link">Not Yet Member? <a href="#">Singup Now</a></div>
+    </div>
+    <script src="JS/main.js"></script>
+    <script src="JS/all.min.js"></script>
+  </body>
+</html>
